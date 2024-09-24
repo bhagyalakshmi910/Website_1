@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body{
+    background-color: rgba(245,245, 245,1.00);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container-lg {
+  padding: 0 20px; 
+}
+
+.green-col{
+    background-color: green;
+    color: black;
+}
+
+.yellow-col{
+    background-color: yellow;
+    color: black;
+}
+
+.orange-col{
+    background-color: orange;
+    color: black;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600; 
+    font-style: normal;
+  }
+
+  .bg-body-tertiary {
+    background-color: rgb(85, 30, 30)!important;
+  }
+
+  .nav-link{
+    color: rgba(200,200,200,1.00)!important;
+  }
+
+  .nav-link:hover{
+    color: #fff !important;
+  }
+
+  .navbar-brand{
+    color: #fff !important;
+  }
+
+  .active{
+    color: #fff !important;
+  }
+
+  .navbar-toggler{
+    filter:invert(100%);
+  }
+
+  h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.422em;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.266em;
+    font-weight: 400;
+  }
+
+  p{
+    font-weight: 400;
+  }
+
+  .footer-pk{
+    text-align: center;
+  }
+
+  .btn-primary{
+    background-color: rgb(245, 117, 62);
+    border-color: rgb(242, 126, 76);
+  }
+
+  .btn-primary:hover{
+    background-color: rgb(0,113,139);
+  }
+
+  .carousel-padding{
+    padding-left: 125px;
+    padding-right: 125px;
+    color: black;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    background-color:rgb(0,113,139);
+  }
